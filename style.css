@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8; /* Белый фон */
+    margin: 0;
+    padding: 0;
+}
+.header-image {
+    text-align: center; /* Центрируем */
+    margin-top: 20px;
+}
+
+.header-image img {
+    max-width: 80%; /* Уменьшает изображение до 80% от экрана */
+    max-height: 200px; /* Ограничивает высоту */
+}
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.image-container img {
+    width: 80%; /* Ширина 80% от экрана */
+    max-width: 616px; /* Максимальная ширина */
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.text-block {
+    max-width: 616px;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #333;
+}
+.menu-container {
+    position: relative;
+    width: 616px;
+    margin: 20px auto;
+}
+.menu-background {
+    width: 100%;
+}
+.menu-button {
+    position: absolute;
+    width: 130px;
+    height: 133px;
+    background-size: cover;
+    cursor: pointer;
+}
+.button1 { top: 15px; left: 20px; background-image: url("btn1.png"); }
+.button2 { top: 15px; left: 170px; background-image: url("btn2.png"); }
+.button3 { top: 15px; left: 320px; background-image: url("btn3.png"); }
+.button4 { top: 15px; left: 470px; background-image: url("btn4.png"); }
+
+/* Эффект при наведении */
+.button1:hover { background-image: url("btn1-hover.png"); }
+.button2:hover { background-image: url("btn2-hover.png"); }
+.button3:hover { background-image: url("btn3-hover.png"); }
+.button4:hover { background-image: url("btn4-hover.png"); }
+.footer {
+    margin-top: 30px;
+}
+.terms-link {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+}
+.terms-link:hover {
+    text-decoration: underline;
+}
