@@ -46,6 +46,14 @@ h1 {
     background-size: cover;
     cursor: pointer;
 }
+@media screen and (max-width: 480px) {
+    .menu-button {
+        top: 30%;
+        left: 20%;
+        width: 60%;
+        height: 30%;
+    }
+}
 .button1 { top: 5px; left: 240px; background-image: url("btn1.png"); }
 
 /* Эффект при наведении */
