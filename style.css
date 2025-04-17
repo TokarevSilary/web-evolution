@@ -53,6 +53,7 @@ h1 {
 .footer {
     margin-top: 30px;
 }
+
 .terms-link {
     font-size: 16px;
     font-weight: bold;
@@ -61,4 +62,21 @@ h1 {
 }
 .terms-link:hover {
     text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .menu-container {
+        width: 95%;
+    }
+
+    .menu-button {
+        top: 5%;
+        left: 35%;
+        width: 30%;
+        height: 100px;
+    }
+}
+.menu-button {
+    border: none; /* временно — чтобы увидеть рамку */
+    z-index: 10;
+    background-color: transparent;/* чтобы не пряталась за другими элементами */
 }
